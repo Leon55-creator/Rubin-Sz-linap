@@ -1,0 +1,54 @@
+body {
+    max-width: 50%;
+    text-align: center;
+    margin: 250px auto;
+    background-color: rgb(204, 161, 195);
+}
+
+.table {
+    margin: 0 auto;
+    font-size: 1.5em;
+    --bs-table-bg: rgb(204, 161, 195);
+    --bs-table-striped-bg: rgb(204, 161, 195);
+    --bs-table-hover-bg: rgb(204, 161, 195);
+    --bs-table-border-color: rgb(90, 120, 130);
+    border: 2px dotted rgb(90, 120, 130);
+}
+
+.table th,
+.table td {
+    border: 1px dotted rgb(0, 0, 0);
+}
+
+.table th:hover {
+    color: rgb(158, 142, 212);
+    transition: 0.7s;
+    font-size: 150%;
+}
+
+.table td:hover {
+    color: rgb(158, 142, 212);
+    transition: 0.7s;
+font-size: 150%;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+h1:hover {
+    color: rgb(158, 142, 212);
+    font-size: 500%;
+    transition: 0.7s;
+}
+
+h2:hover {
+    color: rgb(158, 142, 212);
+    transition: 0.7s;
+}
+
+h3:hover {
+    color: rgb(158, 142, 212);
+    transition: 0.7s;
+}
+
